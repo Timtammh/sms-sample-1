@@ -1855,7 +1855,7 @@ p.contact_success_box{
 	width:100%;
 	position:relative;
 	overflow:hidden;
-	background: url(/images/overlay-1.jpg);
+	background: url(images/overlay-1.jpg);
 	background-position: center center;
     background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -1972,7 +1972,7 @@ p.testimonials-text {
 	width:100%;
 	position:relative;
 	z-index:100;
-	background: url(/images/overlay-2.jpg);
+	background: url(images/overlay-2.jpg);
 	background-position: center top;
     background-repeat: no-repeat;
 	background-attachment: fixed;
