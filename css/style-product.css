@@ -98,7 +98,7 @@ p {
 	line-height: 24px;
 	font-weight: 400;
 	color: #858585;
-	margin-bottom:35px;
+	margin-bottom:15px;
 }
 
 a,
@@ -676,17 +676,9 @@ iframe{
 /* ========================================================== */
 .navbar {
 	/* border: red solid 3px; */
-}
-
-.top-logo-s {
-	position: absolute;
-	display: inline-block;
-	font-size:38px;
-	z-index: 3;
-	top: 35%!important;
-	margin-top: -19px!important;
-	left: 8%;
-	right: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 807px) { /* 調整媒體查詢的最大寬度，以符合您的電話版設計 */
@@ -2766,7 +2758,10 @@ figure a .text-overlay .info {
 	}
 	.navbar .navbar-brand,
 	.navbar.fixed .navbar-brand {
-	    padding-top: 25px
+	    padding-top: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 	}
 	.navbar.fixed .navbar-brand img {
 	    height: 25px !important;
@@ -4914,4 +4909,128 @@ article.project-post-2 img {
 
 .overlay h4 {
 	color: white;
+}
+
+.orange-2 {
+  color: #dd5100;
+}
+
+.footer .copyright-p-tim {
+	font-size: 8px;
+}
+
+
+/* button */
+/* button */
+/* button */
+/* button */
+/* button */
+
+section .out-goback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section .goback {
+  width: 91%;
+  margin: 13px 0 -1px 0;
+  /* border: red solid 3px; */
+  display: flex;
+  align-items: center;
+}
+
+button {
+	border: 0;
+	cursor: pointer;
+	position: relative;
+}
+
+button div {
+	padding: .3rem .9rem;
+	position: relative;
+	overflow: hidden;
+}
+
+.arrow {
+  color: #dd5100;
+  font-size: 20px;
+}
+  
+button a {
+	position: relative;
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: #dd5100;
+	text-transform: uppercase;
+	z-index: 2;
+  top: -2px;
+}
+  
+button::before {
+	border-bottom: 0;
+	top: -10%; 
+}
+  
+button::after {
+	border-top: 0;
+	bottom: -10%;
+}
+  
+/* button span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 120%;
+	height: 110%;
+	background-color: #cecece;
+	transform: translateX(-105%) skew(-10deg);
+	transition: 0.4s ease;
+}
+  
+button:hover span {
+	transform: translateX(-5%) skew(-10deg);
+} */
+
+/* button */
+/* button */
+/* button */
+/* button */
+/* button */
+
+@media (max-width: 1050px) { 
+	section .goback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 766px) { 
+	#home_wrapper {
+    padding: 30px 0 85px 0;
+  }
+}
+
+@media (max-width: 415px) { 
+	#home_wrapper .sub-header img {
+    display: none;
+  }
+}
+
+
+@media (max-width: 415px) { 
+	#home_wrapper .sub-header h2 {
+    color: #dd5100;
+    font-size: 30px;
+    box-shadow: none;
+    margin: 5px 0 10px 0;
+  }
+}
+
+@media (max-width: 415px) { 
+	.element-item {
+    margin-bottom: -30px;
+  }
 }
